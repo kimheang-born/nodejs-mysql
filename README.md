@@ -21,10 +21,11 @@ To run the project locally, follow these installation steps:
 1. Create a `.env` file in the root of the project and add the necessary environment variables, if applicable.
 
    ```env
-   DB_HOST=localhost
-   DB_USER=myuser
-   DB_PASSWORD=mypassword
-   SECRET_KEY=mysecret
+    DB_CONNECTION=mysql
+    DB_HOST=localhost
+    DB_DATABASE=root
+    DB_USERNAME=
+    DB_PASSWORD=
    ```
 
 2. Install dependencies:
